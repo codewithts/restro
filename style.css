@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-image: linear-gradient(30deg, rgba(6, 6, 166, 0.897), rgba(197, 9, 9, 0.9)
+    ), url(/restro/271-2718371_png-geometric-pattern.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; width: 100%;
+}
+marquee{
+    color: white;
+    /* padding: 5px; */
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.marquee {
+    background: transparent;
+    /* white-space: nowrap; */
+    animation: rightThenLeft;
+    -webkit-animation: rightThenLeft 4s linear;
+    padding: 2px;
+    margin: 2px;
+}  
+nav ul{
+    float: right;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav li a{
+    padding: 0px 20px ;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+.box{
+    border-radius: 66% 34% 70% 30% / 30% 30% 70% 70% ;
+    box-shadow:  10px 10px whitesmoke;
+    height: 350px;
+    width: 358px;
+    background-color: black;
+    padding: 25px;
+}
+.box h1{
+    color: aliceblue;
+    padding: 25px;
+    margin: 50px;
+}
